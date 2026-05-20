@@ -1,0 +1,41 @@
+{
+    "model_name": "xgboost",
+    "default_threshold_result": {
+        "threshold": 0.5,
+        "accuracy": 0.749822316986496,
+        "precision": 0.5200729927007299,
+        "recall": 0.7620320855614974,
+        "f1": 0.6182212581344902,
+        "f_beta": 0.6971624266144814,
+        "cm": [
+            [
+                770,
+                263
+            ],
+            [
+                89,
+                285
+            ]
+        ],
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.90      0.75      0.81      1033\n           1       0.52      0.76      0.62       374\n\n    accuracy                           0.75      1407\n   macro avg       0.71      0.75      0.72      1407\nweighted avg       0.80      0.75      0.76      1407\n"
+    },
+    "optimized_threshold_result": {
+        "threshold": 0.34999999999999987,
+        "accuracy": 0.6936744847192609,
+        "precision": 0.45875542691751087,
+        "recall": 0.8475935828877005,
+        "f1": 0.5953051643192488,
+        "f_beta": 0.7247370827617741,
+        "cm": [
+            [
+                659,
+                374
+            ],
+            [
+                57,
+                317
+            ]
+        ],
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.92      0.64      0.75      1033\n           1       0.46      0.85      0.60       374\n\n    accuracy                           0.69      1407\n   macro avg       0.69      0.74      0.67      1407\nweighted avg       0.80      0.69      0.71      1407\n"
+    }
+}

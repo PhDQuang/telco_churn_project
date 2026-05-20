@@ -1,0 +1,26 @@
+{
+    "algorithm_key": "naive_bayes",
+    "model_name": "gaussian_naive_bayes",
+    "data_file": "C:\\Study\\telco_churn_project\\data\\feature_engineering\\naive_bayes\\telco_churn_fe_nb.csv",
+    "best_score_cv": 0.6081609852590862,
+    "best_params": {
+        "model__var_smoothing": 1e-12
+    },
+    "test_metrics": {
+        "accuracy": 0.7043354655294953,
+        "precision": 0.4672897196261682,
+        "recall": 0.8021390374331551,
+        "f1_score": 0.5905511811023622
+    },
+    "confusion_matrix": [
+        [
+            691,
+            342
+        ],
+        [
+            74,
+            300
+        ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.90      0.67      0.77      1033\n           1       0.47      0.80      0.59       374\n\n    accuracy                           0.70      1407\n   macro avg       0.69      0.74      0.68      1407\nweighted avg       0.79      0.70      0.72      1407\n"
+}

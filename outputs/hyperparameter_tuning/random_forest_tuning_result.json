@@ -1,0 +1,32 @@
+{
+    "algorithm_key": "random_forest",
+    "model_name": "random_forest",
+    "data_file": "C:\\Study\\telco_churn_project\\data\\feature_engineering\\random_forest\\telco_churn_fe_rf.csv",
+    "best_score_cv": 0.6408483077813358,
+    "best_params": {
+        "model__class_weight": "balanced",
+        "model__criterion": "gini",
+        "model__max_depth": 10,
+        "model__max_features": "sqrt",
+        "model__min_samples_leaf": 4,
+        "model__min_samples_split": 2,
+        "model__n_estimators": 200
+    },
+    "test_metrics": {
+        "accuracy": 0.7633262260127932,
+        "precision": 0.5394990366088632,
+        "recall": 0.7486631016042781,
+        "f1_score": 0.6270996640537514
+    },
+    "confusion_matrix": [
+        [
+            794,
+            239
+        ],
+        [
+            94,
+            280
+        ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.89      0.77      0.83      1033\n           1       0.54      0.75      0.63       374\n\n    accuracy                           0.76      1407\n   macro avg       0.72      0.76      0.73      1407\nweighted avg       0.80      0.76      0.77      1407\n"
+}

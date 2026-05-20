@@ -1,0 +1,51 @@
+{
+    "algorithm_key": "decision_tree",
+    "model_name": "decision_tree",
+    "optimize_for": "f_beta",
+    "best_params": {
+        "model__class_weight": "balanced",
+        "model__criterion": "entropy",
+        "model__max_depth": 3,
+        "model__max_features": null,
+        "model__min_samples_leaf": 1,
+        "model__min_samples_split": 2
+    },
+    "default_threshold_result": {
+        "threshold": 0.5,
+        "accuracy": 0.7313432835820896,
+        "precision": 0.4965986394557823,
+        "recall": 0.7807486631016043,
+        "f1": 0.6070686070686071,
+        "f_beta": 0.7005758157389635,
+        "cm": [
+            [
+                737,
+                296
+            ],
+            [
+                82,
+                292
+            ]
+        ],
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.90      0.71      0.80      1033\n           1       0.50      0.78      0.61       374\n\n    accuracy                           0.73      1407\n   macro avg       0.70      0.75      0.70      1407\nweighted avg       0.79      0.73      0.75      1407\n"
+    },
+    "optimized_threshold_result": {
+        "threshold": 0.3899999999999999,
+        "accuracy": 0.7313432835820896,
+        "precision": 0.4965986394557823,
+        "recall": 0.7807486631016043,
+        "f1": 0.6070686070686071,
+        "f_beta": 0.7005758157389635,
+        "cm": [
+            [
+                737,
+                296
+            ],
+            [
+                82,
+                292
+            ]
+        ],
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.90      0.71      0.80      1033\n           1       0.50      0.78      0.61       374\n\n    accuracy                           0.73      1407\n   macro avg       0.70      0.75      0.70      1407\nweighted avg       0.79      0.73      0.75      1407\n"
+    }
+}

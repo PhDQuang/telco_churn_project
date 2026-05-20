@@ -1,0 +1,31 @@
+{
+    "algorithm_key": "decision_tree",
+    "model_name": "decision_tree",
+    "data_file": "C:\\Study\\telco_churn_project\\data\\feature_engineering\\decision_tree\\telco_churn_fe_tree.csv",
+    "best_score_cv": 0.6223381492377056,
+    "best_params": {
+        "model__class_weight": "balanced",
+        "model__criterion": "entropy",
+        "model__max_depth": 3,
+        "model__max_features": null,
+        "model__min_samples_leaf": 1,
+        "model__min_samples_split": 2
+    },
+    "test_metrics": {
+        "accuracy": 0.7313432835820896,
+        "precision": 0.4965986394557823,
+        "recall": 0.7807486631016043,
+        "f1_score": 0.6070686070686071
+    },
+    "confusion_matrix": [
+        [
+            737,
+            296
+        ],
+        [
+            82,
+            292
+        ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.90      0.71      0.80      1033\n           1       0.50      0.78      0.61       374\n\n    accuracy                           0.73      1407\n   macro avg       0.70      0.75      0.70      1407\nweighted avg       0.79      0.73      0.75      1407\n"
+}
